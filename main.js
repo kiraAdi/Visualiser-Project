@@ -47,7 +47,7 @@ const container = document.querySelector(".data_container");
             await new Promise((resolve) =>
              setTimeout(() => {
                 resolve();
-              }, 150)
+              }, 200)
               );
 
             var val1 = parseInt(bars[j].childNodes[0].innerHTML);
@@ -69,7 +69,7 @@ const container = document.querySelector(".data_container");
             await new Promise((resolve) =>
               setTimeout(() => {
                  resolve();
-                 }, 150)
+                 }, 200)
                   );
 
             bars[j].style.backgroundColor = "rgb(0, 183, 255)";
