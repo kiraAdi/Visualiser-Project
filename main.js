@@ -13,9 +13,9 @@ const container = document.querySelector(".data_container");
         bar.classList.add("bar");
 
         if(value == 0){
-            bar.style.height = `${value*15}px`;
+            bar.style.height = `${17}px`;
         }else{
-            bar.style.height = `${value*4}px`;
+            bar.style.height = `${value*4 + 17}px`;
         }
 
         bar.style.transform = `translateX(${i * 31}px)`;
